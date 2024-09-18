@@ -1,0 +1,61 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de header */
+header{
+    background-color: black;
+    text-align: center;
+
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* todo lo del main (titulo, Tarjetas */
+main{
+    text-align: center;
+    padding: 30px;
+}
+.logo{
+    height: 50px;
+}
+
+.img-tarjetas{
+    height: 200px;
+    width: 200px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    position: relative;
+}
+.tarjetas-1{
+    width: 300px;
+    margin: 10px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media(max-width: 992px){
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- abajo link de iconos para calendario, ubi y ticket -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="shortcut icon" href="./galeria/logo.png" type="image/x-icon">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Todo tickes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- menu de navegacion -->
+            <ul>
+                <li>
+                    <a href="../index.html"> inicio</a>
+                </li>
+                <li>
+                    <a href="./contacto.html"> contacto</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html"> quienes somos</a>
+                </li>
+                <li>
+                    <a href="./puntosdeventa.html"> puntos de venta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <div>   
+                <h2>Recuperación de entradas</h2>
+                <h3>Las entradas adquiridas en Todo Ticket están a tu disposición en el Área Privada de la web, a la que puedes acceder con el correo de compra y la clave que has configurado; si nunca lo has hecho, es el número del Documento de Identificación (DNI, NIF, pasaporte, etc.) que indicaste al realizar la compra. Puedes también recuperarlas aquí mismo haciendo clic en el siguiente botón</h3>
+                <button type="submit"> RECUPERAR ENTRADA/TICKET</button>
+            </div>
+            <div>
+                <h2>Atención al cliente</h2>
+                <h4>necesitas consultarnos cualquier otra cosa, rellena el formulario o escríbenos directamente a compras@todoticket.com.ar</h4>
+            </div>
+            <!-- formulario de reclamo -->
+           <form class="from-contactos" action="">
+               <div class="from-contactos-grupo">
+                   <label class="from-contactos-grupo-label" for="nombre">Nombre</label>
+                   <input id="nombre" class="from-contactos-grupo-input" type="text">
+               </div>
+               <div class="from-contactos-grupo">
+                   <label class="from-contactos-grupo-label" for="email">Email</label>
+                   <input id="email" class="from-contactos-grupo-input" type="email">
+               </div>
+               <div class="from-contactos-grupo">
+                   <label class="from-contactos-grupo-label" for="tel">Telefono</label>
+                   <input id="tel" class="from-contactos-grupo-input" type="tel">
+               </div>
+               <div class="from-contactos-grupo-mensaje">
+                   <label class="from-contactos-grupo-label" for="mensaje">Mensaje</label>
+                   <input id="mensaje" class="from-contactos-grupo-text" type="text" placeholder="ingrese su mensaje" > 
+               </div>
+               <button type="submit" class="from-contactos-botton" >Enviar</button>
+           </form>
+   
+    
+    </main>
+    <footer>
+        <p>©2024 Hernan Jaramillo, Todo ticket. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
